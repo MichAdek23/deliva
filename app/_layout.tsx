@@ -7,7 +7,7 @@ export default function RootLayout() {
 
   return (
     <>
-      <Stack screenOptions={{ headerShown: false }} initialRouteName="onboarding">
+      <Stack screenOptions={{ headerShown: false }} initialRouteName="splash">
         <Stack.Screen name="onboarding" />
         <Stack.Screen name="splash" />
         <Stack.Screen name="auth" />
